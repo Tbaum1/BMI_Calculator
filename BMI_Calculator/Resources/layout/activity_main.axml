@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:minWidth="25px"
+	android:minHeight="25px">
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/linearLayout1"
+		android:background="#ff85c3e2">
+		<TextView
+			android:text="BMI Caclulator"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/textView1"
+			android:textAlignment="center"
+			android:textSize="25sp"
+			android:textStyle="bold"
+			android:layout_marginBottom="50dp"
+			android:layout_marginTop="50dp" />
+		<ImageView
+			android:src="@drawable/bmi"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/imageView1"
+			android:layout_marginBottom="25dp"
+			android:layout_gravity="center_horizontal" />
+		<TextView
+			android:text="Height in Inches"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/txtViewHeight"
+			android:textAlignment="center"
+			android:textStyle="bold"
+			android:textSize="18sp" />
+		<EditText
+			android:inputType="number|numberDecimal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/editTxtHeight"
+			android:width="50dp"
+			android:layout_gravity="center_horizontal"
+			android:layout_marginBottom="30dp"
+			android:textSize="16sp"
+			android:textAlignment="center" />
+		<TextView
+			android:text="Weight in Pounds"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/txtViewWeight"
+			android:textAlignment="center"
+			android:textStyle="bold"
+			android:textSize="18sp" />
+		<EditText
+			android:inputType="number|numberDecimal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/editTxtWeight"
+			android:width="50dp"
+			android:layout_gravity="center_horizontal"
+			android:textSize="16sp"
+			android:textAlignment="center" />
+		<Button
+			android:text="Calculate"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/btnCalc"
+			android:layout_gravity="center_horizontal"
+			android:textAlignment="center"
+			android:textStyle="bold"
+			android:textSize="16sp"
+			android:layout_marginTop="25dp"
+			android:clickable="true" />
+	</LinearLayout>
+</RelativeLayout>

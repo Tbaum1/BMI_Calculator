@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#ff85c3e2">
+	<ImageView
+		android:src="@drawable/bmi2"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/imageView1"
+		android:layout_marginBottom="50dp"
+		android:layout_marginTop="75dp" />
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/txtViewAnswer"
+		android:textAlignment="center"
+		android:textSize="25sp"
+		android:textStyle="bold"/>
+	<Button
+		android:text="OK"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/btnOK"
+		android:textStyle="bold"
+		android:textSize="22sp"
+		android:textAlignment="center"
+		android:layout_gravity="bottom|center_horizontal"
+		android:width="50dp"
+		android:gravity="center_horizontal|bottom"
+		android:foregroundGravity="center_horizontal|bottom"
+		android:layout_marginTop="75dp" />
+	
+
+</LinearLayout>
